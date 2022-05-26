@@ -15,7 +15,7 @@ func main() {
 
 func Home(w http.ResponseWriter, r *http.Request) {
 	// Assign a message to return
-	msg := "This is a test for a toolchain"
+	msg := "This is a test for a Deepik-toolchain"
 
 	// Write this message to the response to display on the screen
 	w.Write([]byte(fmt.Sprintf(msg)))
